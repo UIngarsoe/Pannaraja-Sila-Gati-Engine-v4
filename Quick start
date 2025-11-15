@@ -1,0 +1,4 @@
+git clone https://github.com/UIngarsoe/Pannaraja-Sila-Gati-Engine-v4.git
+cd Pannaraja-Sila-Gati-Engine-v4
+pip install torch networkx numpy
+python engine.py
