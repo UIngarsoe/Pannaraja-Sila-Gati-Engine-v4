@@ -1,2 +1,4 @@
-pip install streamlit numpy torch networkx
-streamlit run streamlit_app.py
+streamlit
+numpy
+torch
+networkx
