@@ -1,0 +1,6 @@
+import ipfshttpclient
+client = ipfshttpclient.connect('/ip4/127.0.0.1/tcp/5001')
+
+if current_z > 0.80:
+    cid = client.add('audit_evidence.json')['Hash']
+    print(f"IPFS CID: {cid}")
