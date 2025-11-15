@@ -1,0 +1,3 @@
+# At end of file
+print("Syncing with SG-NODE-02...")
+# Use libp2p or simple HTTP POST
