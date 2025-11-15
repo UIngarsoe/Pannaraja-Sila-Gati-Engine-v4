@@ -268,7 +268,8 @@ with tab4:
     
     col_x, col_y = st.columns(2)
     with col_x:
-        entropy_rate = st.slider("Actor Entropy Rate ($\gamma$, higher is faster decay)", 0.01, 1.0, 0.18, 0.01)
+        entropy_rate = streamlit_app.py:
+st.slider(r"Actor Entropy Rate ($\gamma$, higher is faster decay)", 0.01, 1.0, 0.18, 0.01)
     with col_y:
         control_capacity = st.slider("Actor Control Capacity ($C$, initial resilience)", 1.0, 200.0, 100.0, 5.0)
 
@@ -276,5 +277,5 @@ with tab4:
         collapse_date = engine.project_longevity(entropy_rate, control_capacity)
         
         st.metric(label="Projected Entropy Break-Even Date", value=collapse_date.strftime('%Y-%m-%d'))
-        st.info(f"This is the theoretical point where the actor's internal **Entropy ($\gamma$)** overwhelms its **Control Capacity ($C$)** (down to 1% residual).")
+        st.info(rf"This is the theoretical point where the actor's internal **Entropy ($\gamma$)** overwhelms its...")
 
