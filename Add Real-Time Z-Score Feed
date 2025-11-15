@@ -1,0 +1,6 @@
+# REPLACE THIS LINE:
+current_z = np.random.uniform(0.1, 0.9)
+
+# WITH REAL API (example: Myanmar Now RSS + NLP)
+from your_v3_intelligence_feeder import get_live_z_score
+current_z = get_live_z_score()
