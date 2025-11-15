@@ -1,0 +1,5 @@
+engine.issue_time_locked_constraint(
+    "ELECTION_Z_SPIKE", 
+    {"action": "PUBLISH_AUDIT"}, 
+    datetime(2025, 11, 20)
+)
