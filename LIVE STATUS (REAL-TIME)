@@ -1,0 +1,13 @@
+[2025-11-15 12:23:07] Initializing Paññā-Rāja Node: TH-SAFEHOUSE-01
+[2025-11-15 12:23:07] Ingesting live intelligence stream...
+  → Ingested: USDP Press | H += 4.68
+  → Ingested: NUG Official | H += 8.19
+  → Ingested: The Irrawaddy | H += 8.26
+  → Ingested: Radio Free Asia | H += 7.92
+[2025-11-15 12:23:08] Arming ELECTION_Z_ANOMALY constraint...
+  LOCK ARMED: a3f1b9c2d4e5f678... | Triggers: 2025-11-20
+  AUTO-ACTION: PUBLISH_INDEPENDENT_VOTER_AUDIT → IPFS, X, Telegram, Signal Group
+[2025-11-15 12:23:08] Starting 24/7 Māra vs Paññā simulation (1000 cycles)...
+  GATN converged. Threat model updated.
+[2025-11-15 12:23:12] Entering monitoring mode. Watching Z-tempo until 2025-11-20...
+  Z-tempo: 0.742 | Threshold: 0.80
